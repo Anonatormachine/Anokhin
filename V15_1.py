@@ -3,16 +3,16 @@
 N = 10
 array = []
 for n in range(10):
-    array.append(int(input(f"Введите элемент {n}: "))) # Заполняем массив из консоли
+    array.append(int(input(f"Введите элемент {n}: "))) 
 
 
-print(f"Исходный массив - {array}") # Выводим введеный массив
+print(f"Исходный массив - {array}") 
 
-new_array = [] # Создаем новый массив
+new_array = [] 
 
-for elem in array: # Цикл перебирает каждый элемент массива
-    if array.count(elem) > 1 and elem not in new_array: # Если элемент в массиве повторяется более 1 раза и его нет в новом массиве
-        new_array.append(elem) # То добавляем элемент в новый массив
+for elem in array: 
+    if array.count(elem) > 1 and elem not in new_array: 
+        new_array.append(elem)
 
 
-print(f"Повторяющиеся значения - {new_array}") # Выводим повторяющиеся значения в консоль
+print(f"Повторяющиеся значения - {new_array}") 
