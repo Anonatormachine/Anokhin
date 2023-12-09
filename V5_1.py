@@ -4,8 +4,8 @@ N = 10
 array = []
 
 for n in range(10):
-    array.append(int(input(f"Введите элемент {n}: "))) # Заполняем массив из консоли
+    array.append(int(input(f"Введите элемент {n}: "))) 
 
 for idx, n in enumerate(array):
-    if n < 0 and array[idx + 1] < 0: # Если текущий элемент и следующий отрицательные
-        print(f"({n}, {array[idx + 1]})") # То выводим в консоль пару чисел
+    if n < 0 and array[idx + 1] < 0:
+        print(f"({n}, {array[idx + 1]})")
